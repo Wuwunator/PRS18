@@ -1,4 +1,5 @@
 # Head start.
+# ask me for this solution: 6cb9ce6024b5fd41aebb86ccd40d8080
 
 def count_or_add_trigrams(trigram, trigrams_so_far):
     '''
