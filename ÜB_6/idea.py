@@ -13,11 +13,14 @@ def count_or_add_trigrams(trigram, trigrams_so_far):
     Adds given trigram if not found,
     increments the trigram counter if found.
     '''
+
     for entry in trigrams_so_far:
         test_trigram = entry[0]
         if test_trigram == trigram:
             entry[1] += 1
+
             break
+
     else:
         trigrams_so_far.append([trigram, 1])
     return trigrams_so_far
